@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Fri Sep  1 22:44:47 2023 as: nmap -sC -sV -A -Pn -T5 -p- -oA ../results/challenge_1/nmap -iL /home/as/Documents/writeup_oscp/challenge_1/macchine.txt -->
+<nmaprun scanner="nmap" args="nmap -sC -sV -A -Pn -T5 -p- -oA ../results/challenge_1/nmap -iL /home/as/Documents/writeup_oscp/challenge_1/macchine.txt" start="1693601087" startstr="Fri Sep  1 22:44:47 2023" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<taskprogress task="Connect Scan" time="1693601202" percent="13.23" remaining="748" etc="1693601950"/>
+<taskprogress task="Connect Scan" time="1693601657" percent="66.22" remaining="291" etc="1693601947"/>
+<taskprogress task="Connect Scan" time="1693601658" percent="66.26" remaining="291" etc="1693601948"/>
+<taskprogress task="Connect Scan" time="1693601900" percent="94.26" remaining="50" etc="1693601949"/>
+<taskprogress task="Connect Scan" time="1693601900" percent="94.28" remaining="50" etc="1693601949"/>
+<taskprogress task="Connect Scan" time="1693601901" percent="94.31" remaining="50" etc="1693601950"/>
+<taskprogress task="Connect Scan" time="1693601951" percent="99.87" remaining="2" etc="1693601952"/>
+<taskprogress task="Connect Scan" time="1693601951" percent="99.90" remaining="1" etc="1693601952"/>
+<taskprogress task="Connect Scan" time="1693601951" percent="99.91" remaining="1" etc="1693601952"/>
+<taskprogress task="Connect Scan" time="1693601951" percent="99.96" remaining="1" etc="1693601951"/>
+<host starttime="1693601088" endtime="1693601995"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="172.16.244.10" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="65534">
+<extrareasons reason="no-responses" count="65534"/>
+</extraports>
+<port protocol="tcp" portid="3544"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="teredo" method="table" conf="3"/></port>
+</ports>
+<times srtt="3638" rttvar="1746" to="50000"/>
+</host>
+<host starttime="1693601088" endtime="1693601995"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="172.16.244.11" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="65534">
+<extrareasons reason="no-responses" count="65534"/>
+</extraports>
+<port protocol="tcp" portid="3544"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="teredo" method="table" conf="3"/></port>
+</ports>
+<times srtt="3575" rttvar="1085" to="50000"/>
+</host>
+<host starttime="1693601088" endtime="1693601995"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="192.168.244.120" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65263">
+<extrareasons reason="conn-refused" count="65263"/>
+</extraports>
+<extraports state="filtered" count="270">
+<extrareasons reason="no-responses" count="270"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="8.4p1 Debian 5+deb11u1" extrainfo="protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:8.4p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="WEBrick httpd" version="1.6.1" extrainfo="Ruby 2.7.4 (2021-07-07)" method="probed" conf="10"><cpe>cpe:/a:ruby-lang:ruby:2.7.4</cpe></service><script id="http-server-header" output="WEBrick/1.6.1 (Ruby/2.7.4/2021-07-07)"><elem>WEBrick/1.6.1 (Ruby/2.7.4/2021-07-07)</elem>
+</script><script id="http-title" output="PAW! (PWK Awesome Website)"><elem key="title">PAW! (PWK Awesome Website)</elem>
+</script></port>
+</ports>
+<times srtt="45765" rttvar="1258" to="50797"/>
+</host>
+<host starttime="1693601088" endtime="1693601993"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="192.168.244.121" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</host>
+<host starttime="1693601088" endtime="1693601995"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="192.168.244.122" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65220">
+<extrareasons reason="conn-refused" count="65220"/>
+</extraports>
+<extraports state="filtered" count="313">
+<extrareasons reason="no-responses" count="313"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="8.9p1 Ubuntu 3" extrainfo="Ubuntu Linux; protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:8.9p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service></port>
+<port protocol="tcp" portid="1194"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="openvpn" method="table" conf="3"/></port>
+</ports>
+<times srtt="46677" rttvar="677" to="50000"/>
+</host>
+<host starttime="1693601088" endtime="1693601995"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="172.16.244.12" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="65534">
+<extrareasons reason="no-responses" count="65534"/>
+</extraports>
+<port protocol="tcp" portid="3544"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="teredo" method="table" conf="3"/></port>
+</ports>
+<times srtt="10129" rttvar="10619" to="52605"/>
+</host>
+<host starttime="1693601088" endtime="1693601995"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="172.16.244.13" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="65534">
+<extrareasons reason="no-responses" count="65534"/>
+</extraports>
+<port protocol="tcp" portid="3544"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="teredo" method="table" conf="3"/></port>
+</ports>
+<times srtt="5223" rttvar="1926" to="50000"/>
+</host>
+<host starttime="1693601088" endtime="1693601995"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="172.16.244.14" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="65534">
+<extrareasons reason="no-responses" count="65534"/>
+</extraports>
+<port protocol="tcp" portid="3544"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="teredo" method="table" conf="3"/></port>
+</ports>
+<times srtt="4430" rttvar="1448" to="50000"/>
+</host>
+<host starttime="1693601088" endtime="1693601995"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="172.16.244.82" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="65534">
+<extrareasons reason="no-responses" count="65534"/>
+</extraports>
+<port protocol="tcp" portid="3544"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="teredo" method="table" conf="3"/></port>
+</ports>
+<times srtt="6183" rttvar="2704" to="50000"/>
+</host>
+<host starttime="1693601088" endtime="1693601995"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="172.16.244.83" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="65534">
+<extrareasons reason="no-responses" count="65534"/>
+</extraports>
+<port protocol="tcp" portid="3544"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="teredo" method="table" conf="3"/></port>
+</ports>
+<times srtt="4777" rttvar="2323" to="50000"/>
+</host>
+<runstats><finished time="1693601996" timestr="Fri Sep  1 22:59:56 2023" elapsed="908.23" summary="Nmap done at Fri Sep  1 22:59:56 2023; 10 IP addresses (10 hosts up) scanned in 908.23 seconds" exit="success"/><hosts up="10" down="0" total="10"/>
+</runstats>
+</nmaprun>

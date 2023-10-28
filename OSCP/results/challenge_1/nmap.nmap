@@ -1,0 +1,69 @@
+# Nmap 7.80 scan initiated Fri Sep  1 22:44:47 2023 as: nmap -sC -sV -A -Pn -T5 -p- -oA ../results/challenge_1/nmap -iL /home/as/Documents/writeup_oscp/challenge_1/macchine.txt
+Warning: 192.168.244.121 giving up on port because retransmission cap hit (2).
+Warning: 192.168.244.120 giving up on port because retransmission cap hit (2).
+Warning: 192.168.244.122 giving up on port because retransmission cap hit (2).
+Nmap scan report for 172.16.244.10
+Host is up (0.0036s latency).
+Not shown: 65534 filtered ports
+PORT     STATE  SERVICE VERSION
+3544/tcp closed teredo
+
+Nmap scan report for 172.16.244.11
+Host is up (0.0036s latency).
+Not shown: 65534 filtered ports
+PORT     STATE  SERVICE VERSION
+3544/tcp closed teredo
+
+Nmap scan report for    
+Host is up (0.046s latency).
+Not shown: 65263 closed ports, 270 filtered ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.4p1 Debian 5+deb11u1 (protocol 2.0)
+80/tcp open  http    WEBrick httpd 1.6.1 (Ruby 2.7.4 (2021-07-07))
+|_http-server-header: WEBrick/1.6.1 (Ruby/2.7.4/2021-07-07)
+|_http-title: PAW! (PWK Awesome Website)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 192.168.244.121
+Host is up (0.046s latency).
+Skipping host 192.168.244.121 due to host timeout
+Nmap scan report for 192.168.244.122
+Host is up (0.047s latency).
+Not shown: 65220 closed ports, 313 filtered ports
+PORT     STATE SERVICE  VERSION
+22/tcp   open  ssh      OpenSSH 8.9p1 Ubuntu 3 (Ubuntu Linux; protocol 2.0)
+1194/tcp open  openvpn?
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 172.16.244.12
+Host is up (0.010s latency).
+Not shown: 65534 filtered ports
+PORT     STATE  SERVICE VERSION
+3544/tcp closed teredo
+
+Nmap scan report for 172.16.244.13
+Host is up (0.0052s latency).
+Not shown: 65534 filtered ports
+PORT     STATE  SERVICE VERSION
+3544/tcp closed teredo
+
+Nmap scan report for 172.16.244.14
+Host is up (0.0044s latency).
+Not shown: 65534 filtered ports
+PORT     STATE  SERVICE VERSION
+3544/tcp closed teredo
+
+Nmap scan report for 172.16.244.82
+Host is up (0.0062s latency).
+Not shown: 65534 filtered ports
+PORT     STATE  SERVICE VERSION
+3544/tcp closed teredo
+
+Nmap scan report for 172.16.244.83
+Host is up (0.0048s latency).
+Not shown: 65534 filtered ports
+PORT     STATE  SERVICE VERSION
+3544/tcp closed teredo
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Sep  1 22:59:56 2023 -- 10 IP addresses (10 hosts up) scanned in 908.23 seconds

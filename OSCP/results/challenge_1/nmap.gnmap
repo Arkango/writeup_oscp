@@ -1,0 +1,22 @@
+# Nmap 7.80 scan initiated Fri Sep  1 22:44:47 2023 as: nmap -sC -sV -A -Pn -T5 -p- -oA ../results/challenge_1/nmap -iL /home/as/Documents/writeup_oscp/challenge_1/macchine.txt
+Host: 172.16.244.10 ()	Status: Up
+Host: 172.16.244.10 ()	Ports: 3544/closed/tcp//teredo///	Ignored State: filtered (65534)
+Host: 172.16.244.11 ()	Status: Up
+Host: 172.16.244.11 ()	Ports: 3544/closed/tcp//teredo///	Ignored State: filtered (65534)
+Host: 192.168.244.120 ()	Status: Up
+Host: 192.168.244.120 ()	Ports: 22/open/tcp//ssh//OpenSSH 8.4p1 Debian 5+deb11u1 (protocol 2.0)/, 80/open/tcp//http//WEBrick httpd 1.6.1 (Ruby 2.7.4 (2021-07-07))/
+Host: 192.168.244.121 ()	Status: Up
+Host: 192.168.244.121 ()	Status: Timeout
+Host: 192.168.244.122 ()	Status: Up
+Host: 192.168.244.122 ()	Ports: 22/open/tcp//ssh//OpenSSH 8.9p1 Ubuntu 3 (Ubuntu Linux; protocol 2.0)/, 1194/open/tcp//openvpn?///
+Host: 172.16.244.12 ()	Status: Up
+Host: 172.16.244.12 ()	Ports: 3544/closed/tcp//teredo///	Ignored State: filtered (65534)
+Host: 172.16.244.13 ()	Status: Up
+Host: 172.16.244.13 ()	Ports: 3544/closed/tcp//teredo///	Ignored State: filtered (65534)
+Host: 172.16.244.14 ()	Status: Up
+Host: 172.16.244.14 ()	Ports: 3544/closed/tcp//teredo///	Ignored State: filtered (65534)
+Host: 172.16.244.82 ()	Status: Up
+Host: 172.16.244.82 ()	Ports: 3544/closed/tcp//teredo///	Ignored State: filtered (65534)
+Host: 172.16.244.83 ()	Status: Up
+Host: 172.16.244.83 ()	Ports: 3544/closed/tcp//teredo///	Ignored State: filtered (65534)
+# Nmap done at Fri Sep  1 22:59:56 2023 -- 10 IP addresses (10 hosts up) scanned in 908.23 seconds
